@@ -468,5 +468,6 @@ function player_state_normal()
 					image_index = 1;
 			}
 		}
+		
 	#endregion
 }

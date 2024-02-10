@@ -16,8 +16,11 @@ player_hit_speed_y = other.y - other.y_start_frame;
 switch (_hitbox_self.behavior)
 {
 	case enemy_hitbox_behaviors.normal:
+	
+	
 		if (other.ball)
 		{
+			
 			with (other)
 			{
 				if (jetpack)

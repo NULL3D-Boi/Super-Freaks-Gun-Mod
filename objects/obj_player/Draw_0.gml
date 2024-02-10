@@ -65,3 +65,8 @@ if (_rubber_band_draw == true && rubber_band && !is_undefined(_average_x) && !is
 	_rubber_band_direction = point_direction(x, y, _average_x, _average_y);
 	draw_sprite_ext(spr_elastiband, rubber_band_color, x, y, _rubber_band_distance / 32, clamp(32 / _rubber_band_distance, 0.5, 1), _rubber_band_direction, c_white, 1);
 }
+
+if face == 1
+draw_sprite_ext(spr_gun,0,x+25,y,1,1,0,c_white,1)
+if face == -1
+draw_sprite_ext(spr_gun,0,x-25,y,-1,1,0,c_white,1)

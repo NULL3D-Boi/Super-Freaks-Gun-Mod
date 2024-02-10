@@ -15,6 +15,8 @@ if (lock_gravity > 0)
 if (walljump_auto > 0)
 	walljump_auto = max(walljump_auto - 1, 0);
 	
+	
+
 if (global.water_active && y > global.water_height)
 {
 	if (underwater == false)
@@ -130,3 +132,4 @@ switch (state)
 
 speed_grv = 0.25;
 speed_fall = 6;
+
